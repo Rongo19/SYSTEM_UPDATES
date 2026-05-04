@@ -1,5 +1,8 @@
+# use command to download the required libraries 
+#pip install tensorflow
+
 import tensorflow as tf
-from tensorflow import keras
+from tensorflow.keras import layers, models
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
